@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+body {
+  background-color: rgba(98, 86, 86, 0.479);
+}
+
+.col-3 {
+    background-color: rgb(66, 57, 57);
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 15px 15px;
+ 
+  }
+  .container {
+    padding: 10%;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .col-10{
+    background-color: rgb(66, 57, 57);
+      display: flex;
+      height: 40vh;
+      width: 95%;
+      justify-content: center;
+  align-items: center;
+      border-radius: 15px 15px 15px 15px;
+      
+
+  }
+  .row p{
+     color:white;
+      background-color: rgb(66, 57, 57);
+      
+      height:7vh;
+      width:10vh;
+      
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px 15px 15px 15px;
+     
+
+  }
+  .search{
+      
+      display:flex;
+      
+      padding-top: 2%;
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 2px;
+     color: gray;
+  }
+ .col-2{
+    background-color: rgb(66, 57, 57);
+      
+      height: 70px;;
+      width: 150px;;
+      border-radius: 15px 15px 15px 15px; 
+ }
+ .col-12 {
+    height: 20vh;
+  }
+  
+  .row {
+    
+    padding-bottom: 10vh;
+  }
+  
+  .col-6 {
+    width: 75%;
+  }
+ .col{
+     display:flex;
+     justify-content: center;
+     color:gray;
+     background-color: rgb(52, 51, 57);
+     padding: 10px 10px;
+     position:relative;
+ }
+ .fa-github:before {
+    
+    position: absolute;
+    left: 2%;
+  }
+  h4 {
+    display: flex;
+    color:gray;
+    padding-left: 2%;
+    color: rgb(254, 254, 254);
+  }
+  
+  
+  .container {
+    padding-top: 10vh;
+  }
+  @media (max-width: 100px) {
+    .col-3 {
+      height: 30vh;
+      width: 50vh;
+    }
+  
+    .row {
+      width:80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5vh;
+      padding-left: 1vh;
+    }
+    .col-2 {
+        width: 30%;
+        display: flex;
+      }
+    
+      .col-6 {
+        text-align: left;
+        padding-top: 0.5vh;
+        padding-left: 30%;
+      }}
